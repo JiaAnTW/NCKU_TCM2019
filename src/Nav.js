@@ -14,7 +14,7 @@ export class Nav extends React.Component{
         const NavBtn = NavStrs.map(NavStr=>{
             const NavStyle={position:'absolute',top:'10px',left:NavStr.pos}
             return (
-                <a href={'/'+ NavStr.value} style={NavStyle}>
+                <a href={'/#/'+ NavStr.value} style={NavStyle}>
                 {NavStr.text}
                 </a>
             )

@@ -1,6 +1,7 @@
 import React from 'react';
+import './ContactBar.css';
 
-export class contactBar extends React.Component{
+export class ContactBar extends React.Component{
     render(){
         return <div>contact us</div>;
     }

@@ -17,60 +17,21 @@
 }
 
 header{
+  position: relative;
+  top:0px;
   background-color: rgb(159, 116, 60);
-  height: 260px;
+  height: 250px;
 }
 
-body{
-  background-color: #F4E4C3;
-}
 
 Nav{
   height: 50px;
   background-color:white;
 }
 
-.contactBar{
-  position: relative;
-  top: 10px;
-  height: 50px;
-  background-color: #734C34;
-}
 
-.Pin{
-  height: 70px;
+.ContactBar{
   position: absolute;
-  top:450px;
-  left: 245px;
-  animation-name: jump;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+  bottom: 0px;
 }
 
-.TimeBar{
-  height: 140px;
-  position: relative;
-  top:200px;
-}
-
-.Cover{
-  position: relative;
-  width: 1515px;
-  top:500px;
-}
-
-
-
-@keyframes jump{
-  0%{
-    top:435px;
-  }
-
-  50%{
-    top:460px;
-  }
-
-  100%{
-      top:435px;
-  }
-}

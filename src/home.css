@@ -1,0 +1,56 @@
+body{
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    background-color: #F4E4C3
+  }
+
+.Pin{
+    height: 70px;
+    position: absolute;
+    top:125px;
+    left: 245px;
+    animation-name: jump;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .TimeBar{
+    height: 140px;
+    position: relative;
+    top:200px;
+  }
+  
+  .Cover{
+    position: relative;
+    width: 1525px;
+    top:0px;
+  }
+  
+  cover{
+    position: relative;
+    top: -40px;
+    bottom: -5px;
+    background-color: #734C34;
+  }
+  
+  #routine{
+    position: relative;
+    top: -20px;
+    height: 600px;
+    background-color: #F4E4C3;
+  }
+
+  @keyframes jump{
+    0%{
+      top:125px;
+    }
+  
+    50%{
+      top:150px;
+    }
+  
+    100%{
+        top:125px;
+    }
+  }
