@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #F4E4C3;
+  display: flex;
+  align-items: center;
+}
+
+header{
+  position: relative;
+  top:65px;
+  left: 0px;
+}
+
+header img{
+  position: absolute;
+  align-items:center;
+  margin: 0px 0px;
+  width: 100vw;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #F4E4C3;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 36px;
+  width: 36px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #F4E4C3;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(159, 116, 60);
+  padding: 50px 1.5em 0;
+  font-size: 1.5em;
+  line-height: 48px;
+  letter-spacing: 6px;
+}
+
+
+/* Wrapper for item list */
+
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item{
+  text-decoration: none;
+  color: #F4E4C3;
+  font-family: 'Microsoft YaHei Light';
+}
+
+.menu-icon{
+  margin: 10px 65px;
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  background-color: #F4E4C3;
+}
+.App-link {
+  color: #61dafb;
+}
+

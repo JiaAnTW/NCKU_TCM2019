@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://scontent.ftpe2-2.fna.fbcdn.net/v/t1.0-9/44026449_1351438261660180_2085363053506854912_n.jpg?_nc_cat=104&oh=f9a13e1537bb5c5b37e74076ebd72156&oe=5C5E505E">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <script type="text/javascript">
+
+      var URL = document.location.toString();
+      var useragent = navigator.userAgent;
+      useragent = useragent.toLowerCase();
+      
+      if( useragent.indexOf('iphone') != -1 || useragent.indexOf('ipod') != -1) location.replace("http://nckutcmwintercamp2019mobile.nctu.me/#/");//iphone
+      else if( useragent.indexOf('ipad') != -1 ) {}//ipad
+      else if( useragent.indexOf('android') != -1 ) {
+      if( ConsiderLimits() )
+      {
+       // android pad
+      }else{
+      location.replace("http://nckutcmwintercamp2019mobile.nctu.me/#/"); // android phone
+      }
+      }else{
+        window.onload = function(){
+            document.body.style.zoom = "100%";
+        }// PC
+      }
+      
+      function ConsiderLimits() {
+      if( screen.width >= 1024 && screen.height >= 600 )
+      return 1;
+      return 0;
+      }
+      </script>
+    <title>2019成大交通管理人才培訓營</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

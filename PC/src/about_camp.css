@@ -1,0 +1,82 @@
+body{
+    background-color: #F4E4C3
+}
+
+h1{
+    z-index: 4; 
+    font-family: 'Microsoft YaHei Light';
+    font-size: 48px;
+    color: rgb(159, 116, 60);
+    position: relative;
+    top:50px;
+    height: 200px;
+}
+
+
+intro{
+    position: relative;
+    top:0px;
+    left:-760px;
+}
+
+
+play img{
+    position: absolute;
+    width: 1520px;
+    height: 800px;
+    margin: 800px 0px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+play img:nth-of-type(2):hover{
+    opacity: 0;
+}
+
+
+visit img{
+    position: absolute;
+    width: 1520px;
+    height: 800px;
+    margin: 0px 0px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+visit img:nth-of-type(2):hover{
+    opacity: 0;
+}
+
+explore img{
+    position: absolute;
+    width: 1520px;
+    height: 800px;
+    margin: 1600px 0px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+explore img:nth-of-type(2):hover{
+    opacity: 0;
+}
+
+lesson img{
+    position: absolute;
+    width: 1520px;
+    height: 800px;
+    top: 2400px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+lesson img:nth-of-type(2):hover{
+    opacity: 0;
+}

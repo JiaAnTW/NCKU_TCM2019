@@ -1,0 +1,62 @@
+p{
+    position: absolute;
+}
+
+.Pin{
+    height: 25px;
+    position: relative;
+    animation-name: jump;
+    left: -161px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .TimeBar{
+    width: 90vw;
+    position: relative;
+    top:200px;
+    left: 15px;
+  }
+  
+  
+
+  cover img{
+    position: relative;
+    align-items: center;
+    
+    max-width:100%;
+    max-height:100%;
+    top: 350px;
+    bottom: 0px;
+  }
+
+  cover a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-family: '華康中黑體';
+  }
+
+  .form{
+    bottom: -225px;
+    left: 0px;
+  }
+
+  .pay{
+    bottom: -225px;
+    left: 25px;
+  }
+
+  @keyframes jump{
+    0%{
+      top:125px;
+    }
+  
+    50%{
+      top:130px;
+    }
+  
+    100%{
+        top:125px;
+    }
+  }

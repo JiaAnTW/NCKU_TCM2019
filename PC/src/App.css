@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.header-pic {
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  top:0px; 
+}
+
+header{
+  position: relative;
+  top:0px;
+  background-color: rgb(159, 116, 60);
+  height: 250px;
+}
+
+
+Nav{
+  height: 50px;
+  background-color:white;
+}
+
+
+.ContactBar{
+  position: absolute;
+  bottom: 0px;
+}
+
