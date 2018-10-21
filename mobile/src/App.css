@@ -26,17 +26,19 @@ header img{
   position: absolute;
   width: 36px;
   height: 30px;
-  left: 36px;
+  left: 24px;
   top: 36px;
+  background: rgb(159, 116, 60);
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #F4E4C3;
+  background: white;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
+  margin: 5px 95px;
   height: 36px;
   width: 36px;
 }
@@ -50,6 +52,7 @@ header img{
 .bm-menu {
   background: rgb(159, 116, 60);
   padding: 50px 1.5em 0;
+  width: 200px;
   font-size: 1.5em;
   line-height: 48px;
   letter-spacing: 6px;
@@ -76,7 +79,7 @@ header img{
 }
 
 .menu-icon{
-  margin: 10px 65px;
+  margin: 10px 15px;
   width: 100px;
   height: 100px;
 }
