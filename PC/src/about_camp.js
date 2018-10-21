@@ -8,7 +8,9 @@ import explore_2 from './asset/explore_2.jpg';
 import explore from './asset/explore.jpg';
 import lesson_2 from './asset/lesson_2.jpg';
 import lesson from './asset/lesson.jpg';
-import Buttons from './Buttons'
+import Buttons from './Buttons';
+import Scroll from 'react-scroll';
+var Element    = Scroll.Element;
 
 class about_camp extends Component {
   render() {
@@ -16,26 +18,33 @@ class about_camp extends Component {
       <div className="App">
         <body>
               <h1>旅程的任務是什麼?</h1>
-              
-              <intro>
-                
-                <visit>
+              <Buttons/>
+              <div className="intro">
+              <Element name='visit'>      
+                <visit id='visit' >
                   <img src={visit_2} className='visit'  alt='visit_2'/>
                   <img src={visit} className='visit'  alt='visit'/>              
                 </visit>
-                <play>
+              </Element>
+              <Element name='play'> 
+                <play id='play' >
                   <img src={play_2} className='play' alt='play_2'/>
                   <img src={play} className='play' alt='play'/>             
                 </play>
-                <explore>
+                </Element>
+                <Element name='explore'>
+                <explore id='explore'>
                   <img src={explore_2} className='explore'  alt='explore_2'/>
                   <img src={explore} className='explore'  alt='explore'/>              
                 </explore>
-                <lesson>
+                </Element>
+                <Element name='lesson'>
+                <lesson id='lesson'>
                   <img src={lesson_2} className='lesson'  alt='lesson_2'/>
                   <img src={lesson} className='lesson'  alt='lesson'/>              
                 </lesson>
-              </intro>       
+                </Element>
+              </div>       
         </body>     
       </div>
     );

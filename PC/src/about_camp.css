@@ -1,6 +1,4 @@
-body{
-    background-color: #F4E4C3
-}
+
 
 h1{
     z-index: 4; 
@@ -12,19 +10,12 @@ h1{
     height: 200px;
 }
 
-
-intro{
-    position: relative;
-    top:0px;
-    left:-760px;
-}
-
-
-play img{
+play{
     position: absolute;
-    width: 1520px;
-    height: 800px;
-    margin: 800px 0px;
+    width: 100vw;
+    margin: 0px 0px;
+    top: 1390px;
+    left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -38,9 +29,10 @@ play img:nth-of-type(2):hover{
 
 visit img{
     position: absolute;
-    width: 1520px;
-    height: 800px;
+    width: 100vw;
     margin: 0px 0px;
+    top: 110%;
+    left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -53,9 +45,9 @@ visit img:nth-of-type(2):hover{
 
 explore img{
     position: absolute;
-    width: 1520px;
-    height: 800px;
-    margin: 1600px 0px;
+    width: 100vw;
+    top: 2190px;
+    left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -68,9 +60,9 @@ explore img:nth-of-type(2):hover{
 
 lesson img{
     position: absolute;
-    width: 1520px;
-    height: 800px;
-    top: 2400px;
+    width: 100vw;
+    top: 2990px;
+    left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;

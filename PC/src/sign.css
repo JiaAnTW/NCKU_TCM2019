@@ -16,7 +16,7 @@ body{
   }
   
   .TimeBar{
-    height: 140px;
+    width: 71.5vw;
     position: relative;
     top:200px;
   }
@@ -31,16 +31,33 @@ body{
 
   cover{
     position: relative;
-    top: -40px;
-    bottom: -5px;
-    height: 2000px;
+    top: -100px;
+    bottom: 0px;
+    
   }
 
   cover img{
     position: relative;
     width: 100vw;
-    margin:0px -760px;
     height: auto;
+  }
+
+  .form{
+    position: absolute;
+    top:1029px;
+    left: 29%;
+    color: white;
+    text-decoration: underline;
+    font-family: '華康細黑體';
+  }
+
+  .pay{
+    position: absolute;
+    top:1029px;
+    left: 40%;
+    color: white;
+    text-decoration: underline;
+    font-family: '華康細黑體';
   }
 
   @keyframes jump{
