@@ -5,6 +5,7 @@ import App from './App';
 import about_camp from './about_camp.js';
 import about_tcm from './about_tcm';
 import sign from './sign';
+import contact_us from './contact_us';
 import * as serviceWorker from './serviceWorker';
 import { Router, Route,  hashHistory ,IndexRoute } from 'react-router';
 
@@ -15,7 +16,7 @@ ReactDOM.render(
         <IndexRoute component={about_camp}/>
         <Route path="about_TCM" component={about_tcm}/>
         <Route path="sign" component={sign}/>
-        <Route path="contact_us" component={about_tcm}/> 
+        <Route path="contact_us" component={contact_us}/> 
       </Route>
     </Router>, document.getElementById('root'));
 

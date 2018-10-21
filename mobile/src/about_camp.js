@@ -3,7 +3,7 @@ import './about_camp.css';
 import play from './asset/play_m.jpg';
 import visit from './asset/visit_m.jpg';
 import explore from './asset/explore_m.jpg';
-import lesson from './asset/learn_m.jpg';
+import lesson from './asset/lesson_m.jpg';
 import Buttons from './Buttons'
 
 class about_camp extends Component {
@@ -18,12 +18,13 @@ class about_camp extends Component {
             <play id='play'>
                 <img src={play} className='play' alt='play'/>             
               </play>
-              <explore id='explore'>
-                <img src={explore} className='explore' alt='explore'/>             
-              </explore>
               <lesson id='lesson'>
                 <img src={lesson} className='lesson' alt='lesson'/>             
               </lesson>
+              <explore id='explore'>
+                <img src={explore} className='explore' alt='explore'/>             
+              </explore>
+              
           </div>           
       </div>
         );
