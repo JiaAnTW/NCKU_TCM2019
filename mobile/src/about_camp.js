@@ -10,8 +10,8 @@ class about_camp extends Component {
 
   render() {
     return (
-      
       <div className="App">
+          <h1 className='topic'>在交管營 我們帶你</h1>
           <Buttons/>
           <div className="intro">
             <visit id='visit'>
@@ -20,12 +20,12 @@ class about_camp extends Component {
             <play id='play'>
                 <img src={play} className='play' alt='play'/>             
               </play>
-              <explore id='explore'>
-                <img src={explore} className='explore' alt='explore'/>             
-              </explore>
               <lesson id='lesson'>
                 <img src={lesson} className='lesson' alt='lesson'/>             
               </lesson>
+              <explore id='explore'>
+                <img src={explore} className='explore' alt='explore'/>             
+              </explore>
               
               
           </div>           

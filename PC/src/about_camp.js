@@ -17,7 +17,7 @@ class about_camp extends Component {
     return (
       <div className="App">
         <body>
-              <h1>旅程的任務是什麼?</h1>
+              <h1>在交管營 我們帶你</h1>
               <Buttons/>
               <div className="intro">
               <Element name='visit'>      
