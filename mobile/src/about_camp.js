@@ -20,12 +20,13 @@ class about_camp extends Component {
             <play id='play'>
                 <img src={play} className='play' alt='play'/>             
               </play>
-              <lesson id='lesson'>
-                <img src={lesson} className='lesson' alt='lesson'/>             
-              </lesson>
               <explore id='explore'>
                 <img src={explore} className='explore' alt='explore'/>             
               </explore>
+              <lesson id='lesson'>
+                <img src={lesson} className='lesson' alt='lesson'/>             
+              </lesson>
+              
               
               
           </div>           
