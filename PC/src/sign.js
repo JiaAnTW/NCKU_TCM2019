@@ -13,11 +13,11 @@ class sign extends Component {
             <img src={TimeBar} className='TimeBar' alt="TimeBar"/>
             <img src={pin} className='Pin' alt="Pin"/>
           </p>
-          <cover>
+          <div className='cover'>
             <img src={cover} alt="cover"/>
-          </cover>  
             <a id="form" className="form" href="https://goo.gl/nFHMU1">報名表單連結</a>
-            <a id="pay" className="pay" href="https://goo.gl/nFHMU1">匯款完成表單連結</a>      
+            <a id="pay" className="pay" href="https://goo.gl/nFHMU1">匯款完成表單連結</a>
+          </div>        
         </body>          
       </div>
     );

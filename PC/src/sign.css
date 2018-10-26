@@ -6,10 +6,10 @@ body{
   }
 
 .Pin{
-    height: 70px;
+    width: 3vw;
     position: absolute;
-    top:125px;
-    left: 245px;
+    top:16%;
+    left: 16%;
     animation-name: jump;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -18,14 +18,14 @@ body{
   .TimeBar{
     width: 71.5vw;
     position: relative;
-    top:200px;
+    top:35%;
   }
   
   
   #routine{
     position: relative;
     top: -20px;
-    height: 600px;
+    height: 80vh;
     background-color: #F4E4C3;
   }
 
@@ -38,13 +38,15 @@ body{
 
   cover img{
     position: relative;
+    max-width: 100%;
     width: 100vw;
+    left: 0%;
     height: auto;
   }
 
   .form{
     position: absolute;
-    top:1029px;
+    top:79%;
     left: 29%;
     color: white;
     text-decoration: underline;
@@ -53,7 +55,7 @@ body{
 
   .pay{
     position: absolute;
-    top:1029px;
+    top:79%;
     left: 40%;
     color: white;
     text-decoration: underline;
@@ -62,14 +64,14 @@ body{
 
   @keyframes jump{
     0%{
-      top:125px;
+      top:22%;
     }
   
     50%{
-      top:150px;
+      top:25%;
     }
   
     100%{
-        top:125px;
+        top:22%;
     }
   }
