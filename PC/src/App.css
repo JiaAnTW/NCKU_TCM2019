@@ -20,7 +20,7 @@ header{
   position: relative;
   top:0px;
   background-color: rgb(159, 116, 60);
-  width: 100vw;
+  max-width: 1540px;
 
 }
 

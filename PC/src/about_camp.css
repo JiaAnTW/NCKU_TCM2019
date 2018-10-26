@@ -10,9 +10,17 @@ h1{
     height: 200px;
 }
 
+Button{
+    max-width: 1520px;
+}
+
+.intro{
+    max-width: 1520px;
+}
+
 play img{
     position: absolute;
-    width: 100vw;
+    max-width: 100%;
     margin: 0px 0px;
     top: 1390px;
     left: 0%;
@@ -29,7 +37,7 @@ play img:nth-of-type(2):hover{
 
 visit img{
     position: absolute;
-    width: 100vw;
+    max-width: 100%;
     margin: 0px 0px;
     top: 110%;
     left: 0%;
@@ -45,7 +53,7 @@ visit img:nth-of-type(2):hover{
 
 explore img{
     position: absolute;
-    width: 100vw;
+    max-width: 100%;
     top: 2190px;
     left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
@@ -60,7 +68,7 @@ explore img:nth-of-type(2):hover{
 
 lesson img{
     position: absolute;
-    width: 100vw;
+    max-width: 100%;
     top: 2990px;
     left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
