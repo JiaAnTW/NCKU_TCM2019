@@ -13,17 +13,15 @@ class Buttons extends React.Component{
                 delay: 100,
                 smooth: "easeInOutQuart",
                 offset: PicOffset});
-            //let anchorElement = document.getElementById(anchorName);
-            //if(anchorElement) { anchorElement.scrollIntoView(); }
         }
       }
 
     render(){
         const nameOfPic=[
-            {src:visit,alt:'visit',id:'visit' , pos: '-45px' , value:'參訪',offset:50,time:1000 },
-            {src:play , alt: 'play' , id: 'play' ,pos: '-15px' , value:'體驗',offset:850 ,time:1250},
-            {src:explore , alt: 'explore' , id: 'explore' ,pos: '15px' , value:'探索',offset:1650,time:1500},
-            {src:lesson , alt: 'lesson' , id: 'lesson' ,pos: '45px' , value:'學習',offset:2450,time:2000}
+            {src:visit,alt:'visit',id:'visit' , pos: '-45px' , value:'參訪',offset:57,time:1000 },
+            {src:play , alt: 'play' , id: 'play' ,pos: '-15px' , value:'體驗',offset:767 ,time:1250},
+            {src:explore , alt: 'explore' , id: 'explore' ,pos: '15px' , value:'探索',offset:1477,time:1500},
+            {src:lesson , alt: 'lesson' , id: 'lesson' ,pos: '45px' , value:'學習',offset:2187,time:2000}
             
         ];
         const PicBtn=nameOfPic.map(Pic=>{

@@ -2,8 +2,8 @@
 
 h1{
     z-index: 4; 
-    font-family: 'Microsoft YaHei Light';
-    font-size: 48px;
+    font-family: '華康細圓體';
+    font-size: 3vw;
     color: rgb(159, 116, 60);
     position: relative;
     top:50px;
@@ -18,11 +18,12 @@ Button{
     max-width: 1520px;
 }
 
-play img{
+
+#play img{
     position: absolute;
     max-width: 100%;
     margin: 0px 0px;
-    top: 1390px;
+    top: 240%;
     left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -30,12 +31,12 @@ play img{
     transition: opacity 1s ease-in-out;
 }
 
-play img:nth-of-type(2):hover{
+#play img:nth-of-type(2):hover{
     opacity: 0;
 }
 
 
-visit img{
+#visit img{
     position: absolute;
     max-width: 100%;
     margin: 0px 0px;
@@ -47,14 +48,14 @@ visit img{
     transition: opacity 1s ease-in-out;
 }
 
-visit img:nth-of-type(2):hover{
+#visit img:nth-of-type(2):hover{
     opacity: 0;
 }
 
-explore img{
+#explore img{
     position: absolute;
     max-width: 100%;
-    top: 2190px;
+    top: 370%;
     left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -62,14 +63,14 @@ explore img{
     transition: opacity 1s ease-in-out;
 }
 
-explore img:nth-of-type(2):hover{
+#explore img:nth-of-type(2):hover{
     opacity: 0;
 }
 
-lesson img{
+#lesson img{
     position: absolute;
     max-width: 100%;
-    top: 2990px;
+    top: 500%;
     left: 0%;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -77,6 +78,6 @@ lesson img{
     transition: opacity 1s ease-in-out;
 }
 
-lesson img:nth-of-type(2):hover{
+#lesson img:nth-of-type(2):hover{
     opacity: 0;
 }

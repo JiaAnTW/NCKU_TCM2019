@@ -1,9 +1,4 @@
-body{
-    position: relative;
-    top:0px;
-    bottom: 0px;
-    background-color: #F4E4C3
-  }
+
 
 .Pin{
     width: 3vw;
@@ -25,7 +20,7 @@ body{
   #routine{
     position: relative;
     top: -20px;
-    height: 80vh;
+    height: 40vw;
     background-color: #F4E4C3;
   }
 

@@ -20,29 +20,21 @@ class about_camp extends Component {
               <h1>在交管營 我們帶你</h1>
               <Buttons/>
               <div className="intro">
-              <Element name='visit'>      
-                <visit id='visit' >
+              <Element name='visit' id='visit'>      
                   <img src={visit_2} className='visit'  alt='visit_2'/>
                   <img src={visit} className='visit'  alt='visit'/>              
-                </visit>
               </Element>
-              <Element name='play'> 
-                <play id='play' >
+              <Element name='play' id='play'> 
                   <img src={play_2} className='play' alt='play_2'/>
                   <img src={play} className='play' alt='play'/>             
-                </play>
                 </Element>
-                <Element name='explore'>
-                <explore id='explore'>
+                <Element name='explore' id='explore'>
                   <img src={explore_2} className='explore'  alt='explore_2'/>
                   <img src={explore} className='explore'  alt='explore'/>              
-                </explore>
                 </Element>
-                <Element name='lesson'>
-                <lesson id='lesson'>
+                <Element name='lesson' id='lesson'>
                   <img src={lesson_2} className='lesson'  alt='lesson_2'/>
                   <img src={lesson} className='lesson'  alt='lesson'/>              
-                </lesson>
                 </Element>
               </div>       
         </body>     

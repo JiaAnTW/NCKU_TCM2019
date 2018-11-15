@@ -1,11 +1,102 @@
-
-
-warning{
+.know_topic{
     z-index: 4; 
-    font-size: 48px;
-    position: relative;
-    top:150px;
-    height: 200px;
-    font-family: 'Microsoft YaHei Light';
-    color: rgb(159, 116, 60);
+    font-family: '華康細圓體';
+    font-size: 9vh;
+    position: absolute;
+    color: rgb(45, 45, 45);
+    top:3vh;
+    left: 39%;
+    line-height: 10vh;
+    text-align: left;
 }
+
+.nope{
+    z-index: 4; 
+    font-family: '華康細圓體';
+    font-size: 3.5vh;
+    position: absolute;
+    color: rgb(45, 45, 45);
+    top:37vh;
+    left: 28vw;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.question{
+    font-family: 'Microsoft Yi Baiti';
+    font-size: 27vh;
+    position: absolute;
+    color: rgb(196, 29, 29);
+    top:-15vh;
+    left: 27%;
+}
+
+#topic_container{
+    position: relative;
+    top: 0;
+    height: 500px;
+   
+}
+#know{
+    max-width: 1520px;
+}
+
+
+#know img{
+    position: relative;
+    max-width: 100%;
+    margin: -5px 0px;
+    left: 0%;
+}
+
+.know_field{
+    max-width: 1920px;
+    position: relative;
+}
+
+.test{
+    position: absolute;
+    background-color: white;
+    top:30%;
+    left: 40%;
+    width: 5vw;
+    height: 5vh;
+    font-family: '華康中黑體'
+}
+
+.back{
+    position: absolute;
+    background-color: white;
+    bottom:0%;
+    right: 0%;
+    width: 0vw;
+    height: 0vh;
+    font-family: '華康細黑體';
+    -webkit-transition: width 1s ease-in-out,height 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out,height 1s ease-in-out;
+    -o-transition: width 1s ease-in-out,height 1s ease-in-out;
+    transition: width 1s ease-in-out,height 1s ease-in-out;
+}
+
+.text{
+    font-family: '華康細黑體';
+    opacity: 0; 
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.test:hover > .back{
+    width: 20vw;
+    height: 20vh;
+}
+
+
+.back:hover > .text{
+    opacity: 1;
+}
+
+
+
+

@@ -31,12 +31,15 @@ Nav{
 }
 
 
-.ContactBar{
+ContactBar{
   position: absolute;
-  bottom: 0px;
+  top: 25000px;
 }
 
 body{
+  position: relative;
+  top:0px;
+  bottom: 0px;
   background-color: #F4E4C3
 }
 
