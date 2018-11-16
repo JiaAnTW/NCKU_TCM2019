@@ -5,6 +5,8 @@ import know_tcm from './asset/know_tcm.jpg';
 import know_future from './asset/know_future.jpg';
 import know_field from './asset/know_field.jpg';
 import know_member from './asset/know_member.jpg';
+import Field from './Field.js';
+import train from './asset/train.png';
 
 class about_tcm extends Component {
 
@@ -21,15 +23,11 @@ class about_tcm extends Component {
                   <img src={know_tcm} className='know_tcm'  alt='know_tcm'/>
                   <img src={know_future} className='know_future'  alt='know_future'/> 
                   <div className='know_field'>                  
-                    <img src={know_field}   alt='know_field'/>
-                      <div className='test'>
-                        測試
-                        <div className='back'>
-                          <div className='text'>
-                            我又跑出來啦哈哈哈
-                          </div>
-                        </div>
-                      </div>
+                    <img src={know_field}   className="field_img" alt='know_field'/>
+                     <Field className="test" id="0"/>
+                     <Field className="test" id="1"/>
+                     <Field className="test" id="2"/>
+                     <Field className="test" id="3"/>
                   </div>
                   <img src={know_member} className='know_member'  alt='know_member'/>              
               </div>    

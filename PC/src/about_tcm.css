@@ -56,46 +56,15 @@
 
 .test{
     position: absolute;
-    background-color: white;
-    top:30%;
-    left: 40%;
-    width: 5vw;
-    height: 5vh;
-    font-family: '華康中黑體'
+    
 }
 
-.back{
+.field_img{
     position: absolute;
-    background-color: white;
-    bottom:0%;
-    right: 0%;
-    width: 0vw;
-    height: 0vh;
-    font-family: '華康細黑體';
-    -webkit-transition: width 1s ease-in-out,height 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out,height 1s ease-in-out;
-    -o-transition: width 1s ease-in-out,height 1s ease-in-out;
-    transition: width 1s ease-in-out,height 1s ease-in-out;
-}
-
-.text{
-    font-family: '華康細黑體';
-    opacity: 0; 
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-
-.test:hover > .back{
-    width: 20vw;
-    height: 20vh;
+    margin: 5 0;
 }
 
 
-.back:hover > .text{
-    opacity: 1;
-}
 
 
 
