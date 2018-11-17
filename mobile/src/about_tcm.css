@@ -1,12 +1,171 @@
-
-.warning{
+.know_topic{
     z-index: 4; 
-    font-size: 48px;
-    position: relative;
-    top: 250px;
-    left: 0%;
-    height: 200px;
-    font-family: 'Microsoft YaHei Light';
-    color: rgb(159, 116, 60);
+    font-family: '華康細圓體';
+    font-size: 7vw;
+    position: absolute;
+    color: rgb(45, 45, 45);
+    top:45vw;
+    left: 32vw;
+    line-height: 10vw;
+    text-align: left;
 }
 
+.nope{
+    z-index: 4; 
+    font-family: '華康細圓體';
+    font-size: 6vw;
+    position: absolute;
+    color: rgb(45, 45, 45);
+    top:77%;
+    left: 7vw;
+    line-height: 5vw;
+    text-align: center;
+}
+
+.question{
+    font-family: 'Microsoft Yi Baiti';
+    font-size: 17vw;
+    position: absolute;
+    color: rgb(196, 29, 29);
+    top:40vw;
+    left: 15vw;
+}
+
+#topic_container{
+    position: relative;
+    height: 100vw;
+}
+
+.pic_container img{
+    position: relative;
+    width: 100vw;
+    margin: -5px 0px;
+}
+
+.know_field{
+    position: absolute;
+    width: 100vw;
+}
+
+.Field_container{
+    position: relative;
+    width: 100vw;
+    left: -50%;
+    height: 260vw;
+    background-color:rgb(64, 34, 15); 
+}
+
+.topic{
+    position: absolute;
+    top: 125px;
+    left: 65%;
+}
+
+.item_container img{
+    width: 25vw;
+}
+
+h4{
+    border-radius: 10px;
+    font-family: "華康細黑體";
+    font-weight: none;
+    background-color: white;
+    height: 8vw;
+    width: 22vw;
+    line-height: 8vw;
+    color:rgb(64, 34, 15);
+}
+
+p{
+    color: white;
+    font-size: 4vw;
+    width: 40vw;
+    line-height: 37vw;
+    height: 30vw;
+    font-family: "華康細黑體";
+}
+
+.passengers{
+    position: absolute;
+    top: 30vw;
+    left: 65%;
+}
+.passengers_topic{
+    position: absolute;
+    top: 53vw;
+    left: 66%;
+}
+
+.passengers_content{
+    position: absolute;
+    top: 30vw;
+    left: 100%;
+}
+
+.truck{
+    position: absolute;
+    top: 80vw;
+    right: -35%;
+}
+.truck_topic{
+    position: absolute;
+    top: 100vw;
+    right: -33%;
+}
+
+.truck_content{
+    position: absolute;
+    top: 80vw;
+    left: 57%;
+}
+
+.network{
+    position: absolute;
+    top: 127vw;
+    left: 65%;
+}
+
+.network_topic{
+    position: absolute;
+    top: 150vw;
+    left: 66%;
+}
+
+.network_content{
+    position: absolute;
+    top: 127vw;
+    left: 100%;
+}
+
+.tower{
+    position: absolute;
+    top: 177vw;
+    right: -33%;
+}
+.tower_topic{
+    position: absolute;
+    top:200vw;
+    right: -31%;
+}
+
+.tower_content{
+    position: absolute;
+    top: 177vw;
+    left: 57%;
+}
+
+.know_member{
+    position: relative;
+    width: 100vw;
+    background-color: rgb(232, 184, 55);
+    height: 2400px;
+}
+
+.profile_topic{
+    position: absolute;
+    color: rgb(45, 45, 45);
+    left: 22.5%;
+    top:30px;
+    font-family: "華康中圓體";
+    font-size: 7vw;
+}

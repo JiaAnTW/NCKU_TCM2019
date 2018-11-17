@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './sign.css';
 import TimeBar from './asset/TimeBar.png';
-import pin from './asset/pin.png';
 import sign from './asset/sign.jpg';
 
 class home extends Component {

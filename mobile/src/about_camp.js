@@ -11,7 +11,7 @@ class about_camp extends Component {
   render() {
     return (
       <div className="App">
-          <h1 className='topic'>在交管營 我們帶你</h1>
+          <h1 className='intro_topic'>在交管營 我們帶你</h1>
           <Buttons/>
           <div className="intro">
             <visit id='visit'>

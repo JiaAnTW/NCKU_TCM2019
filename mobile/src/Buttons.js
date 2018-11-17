@@ -3,9 +3,7 @@ import visit from './asset/visit_l.jpg';
 import play from './asset/play_l.jpg';
 import explore from './asset/explore_l.jpg';
 import lesson from './asset/lesson_l.jpg';
-import Scroll from 'react-scroll'
 import './about_camp.css';
-var scroller = Scroll.scroller;
  class Buttons extends React.Component{
     
 
