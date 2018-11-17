@@ -5,8 +5,11 @@ import know_tcm from './asset/know_tcm.jpg';
 import know_future from './asset/know_future.jpg';
 import know_field from './asset/know_field.jpg';
 import know_member from './asset/know_member.jpg';
+import passengers from './asset/passengers.png';
+import truck from './asset/truck.png';
+import network from './asset/network.png';
+import tower from './asset/tower.png'
 import Field from './Field.js';
-import train from './asset/train.png';
 
 class about_tcm extends Component {
 
@@ -24,10 +27,10 @@ class about_tcm extends Component {
                   <img src={know_future} className='know_future'  alt='know_future'/> 
                   <div className='know_field'>                  
                     <img src={know_field}   className="field_img" alt='know_field'/>
-                     <Field className="test" id="0"/>
-                     <Field className="test" id="1"/>
-                     <Field className="test" id="2"/>
-                     <Field className="test" id="3"/>
+                     <Field className="test" id="0" pic={passengers} alt="passengers"/>
+                     <Field className="test" id="1" pic={truck} alt="truck"/>
+                     <Field className="test" id="2" pic={network} alt="network"/>
+                     <Field className="test" id="3" pic={tower} alt="tower"/>
                   </div>
                   <img src={know_member} className='know_member'  alt='know_member'/>              
               </div>    
