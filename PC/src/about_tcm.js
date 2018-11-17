@@ -4,16 +4,30 @@ import know1 from './asset/know1.jpg';
 import know_tcm from './asset/know_tcm.jpg';
 import know_future from './asset/know_future.jpg';
 import know_field from './asset/know_field.jpg';
-import know_member from './asset/know_member.jpg';
 import passengers from './asset/passengers.png';
 import truck from './asset/truck.png';
 import network from './asset/network.png';
 import tower from './asset/tower.png'
 import Field from './Field.js';
+import Profile from './Profile.js';
 
 class about_tcm extends Component {
+  constructor(){
+    super();
+    this.changeNow=this.changeNow.bind(this);
+    this.state={
+      now:"0",
+      button_pos: [{"left":"48.25%"},{"left":"50.25%"},{"left":"52.25%"}]
+    }
+  }
+
+  changeNow(e){
+    this.setState({now:e.target.value});
+  }
+
 
   render() {
+    const ButtonStyle=[{left: "48%"},{left: "50%"},{left: "52%"}];
     return (
       <div className="App">
               <div name='topic_container' id='topic_container'>
@@ -27,12 +41,18 @@ class about_tcm extends Component {
                   <img src={know_future} className='know_future'  alt='know_future'/> 
                   <div className='know_field'>                  
                     <img src={know_field}   className="field_img" alt='know_field'/>
-                     <Field className="test" id="0" pic={passengers} alt="passengers"/>
-                     <Field className="test" id="1" pic={truck} alt="truck"/>
-                     <Field className="test" id="2" pic={network} alt="network"/>
-                     <Field className="test" id="3" pic={tower} alt="tower"/>
+                     <Field className="Field" id="0" pic={passengers} alt="passengers"/>
+                     <Field className="Field" id="1" pic={truck} alt="truck"/>
+                     <Field className="Field" id="2" pic={network} alt="network"/>
+                     <Field className="Field" id="3" pic={tower} alt="tower"/>
                   </div>
-                  <img src={know_member} className='know_member'  alt='know_member'/>              
+                  <div className='know_member'>
+                    <Profile id= {this.state.now}/>                   
+                    <button onClick={this.changeNow} value={0} style={ButtonStyle[0]} ></button>
+                    <button onClick={this.changeNow} value={1} style={ButtonStyle[1]} ></button>
+                    <button onClick={this.changeNow} value={2} style={ButtonStyle[2]} ></button>
+                    <div className="fakeButton" style={this.state.button_pos[this.state.now]}></div>
+                  </div>             
               </div>    
       </div>
     );

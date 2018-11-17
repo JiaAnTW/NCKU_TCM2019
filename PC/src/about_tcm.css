@@ -54,7 +54,7 @@
     position: relative;
 }
 
-.test{
+.Field{
     position: absolute;
     
 }
@@ -62,6 +62,37 @@
 .field_img{
     position: absolute;
     margin: 5 0;
+}
+
+.know_member{
+    max-width: 1920px;
+    height: 50vw;
+    position: relative;
+    background-color: rgb(232, 184, 55)
+}
+
+button{
+    position: absolute;
+    bottom: 5%;
+    background-color: rgb(45, 45, 45);
+    border-radius: 50px;
+    width: 1vw;
+    height: 1vw;
+    border: none;
+}
+
+.fakeButton{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    bottom: 5.5%;
+    left: 50.26%;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-transition: left 0.4s ease-in-out;
+    -moz-transition: left 0.4s ease-in-out;
+    -o-transition: left 0.4s ease-in-out;
+    transition: left 0.4s ease-in-out;
 }
 
 
