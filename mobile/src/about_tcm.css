@@ -1,29 +1,29 @@
 .know_topic{
     z-index: 4; 
-    font-family: '華康細圓體';
+    font-family: '華康中黑體';
     font-size: 7vw;
     position: absolute;
     color: rgb(45, 45, 45);
     top:45vw;
-    left: 32vw;
+    left: 34vw;
     line-height: 10vw;
     text-align: left;
 }
 
 .nope{
     z-index: 4; 
-    font-family: '華康細圓體';
-    font-size: 6vw;
+    font-family: '華康細黑體';
+    font-size: 4vw;
     position: absolute;
     color: rgb(45, 45, 45);
-    top:77%;
-    left: 7vw;
+    top:74%;
+    left: 22%;
     line-height: 5vw;
     text-align: center;
 }
 
 .question{
-    font-family: 'Microsoft Yi Baiti';
+    font-family: '華康細黑體';
     font-size: 17vw;
     position: absolute;
     color: rgb(196, 29, 29);
@@ -49,10 +49,20 @@
 
 .Field_container{
     position: relative;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     left: -50%;
-    height: 260vw;
+    height: 270vw;
     background-color:rgb(64, 34, 15); 
+}
+
+.background{
+    top:0%;
+    left: 50vw;
+    width: 100vw;
+    position: absolute;
+    height: 270vw;
+    background-color:rgb(64, 34, 15);
 }
 
 .topic{
@@ -158,13 +168,13 @@ p{
     position: relative;
     width: 100vw;
     background-color: rgb(232, 184, 55);
-    height: 2400px;
+    height: 800vw;
 }
 
 .profile_topic{
     position: absolute;
     color: rgb(45, 45, 45);
-    left: 22.5%;
+    left: 11%;
     top:30px;
     font-family: "華康中圓體";
     font-size: 7vw;

@@ -16,13 +16,14 @@ class about_tcm extends Component {
               <div name='topic_container' id='topic_container'>
                   <h1 className="question">Q:</h1>
                   <h2 className="know_topic">交管到底是什麼<br/>你們指揮交通嗎</h2>
-                  <h3 className="nope">A: 並沒有。<br/>憾!交管系竟不指揮交通?真相是...(往下滑小編告訴你)</h3>
+                  <h3 className="nope">A: 並沒有。<br/>憾!交管系竟不指揮交通?真相是...<br/>(往下滑小編告訴你)</h3>
               </div>
               <div className='pic_container'>
                 <img src={know_tcm} className='know_tcm'  alt='know_tcm'/>
                 <img src={know_future} className='know_future'  alt='know_future'/>
               </div>
               <div className='Field_container'>
+                  <div className="background"></div>
                   <img src={know_field} className='know_field'  alt='know_field'/>
                   <div className='item_container'>
                   <img src={passengers} className='passengers'  alt='passengers'/>
@@ -40,7 +41,7 @@ class about_tcm extends Component {
                   </div>
               </div>
               <div className="know_member">
-                <h2 className="profile_topic">歷年營隊學員分享</h2>
+                <h2 className="profile_topic">了解了交管卻還在猶豫嗎?<br/>聽聽他們怎麼說!</h2>
                 <Profile id="0"/>
                 <Profile id="1"/>
                 <Profile id="2"/>
