@@ -4,7 +4,7 @@
     font-size: 9vh;
     position: absolute;
     color: rgb(45, 45, 45);
-    top:3vh;
+    top:1.5vw;
     left: 39%;
     line-height: 10vh;
     text-align: left;
@@ -16,7 +16,7 @@
     font-size: 3.5vh;
     position: absolute;
     color: rgb(45, 45, 45);
-    top:37vh;
+    top:17vw;
     left: 28vw;
     line-height: 7vh;
     text-align: center;
@@ -27,7 +27,7 @@
     font-size: 27vh;
     position: absolute;
     color: rgb(196, 29, 29);
-    top:-15vh;
+    top:-7vw;
     left: 27%;
 }
 

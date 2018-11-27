@@ -35,8 +35,9 @@
 .text{
     font-family: '華康細黑體';
     position: absolute;
-    top:20%;
+    top:11%;
     left:10%;
+    width: 25vw;
     opacity: 0; 
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -47,9 +48,16 @@
 .container:hover > .back{
     width: 35vw;
     height: 30vh;
+
 }
 
 
 .back:hover > .text{
     opacity: 1;
+}
+
+.content{
+    font-size: 1vw;
+    line-height: 1.5vw;
+    text-align: left;
 }

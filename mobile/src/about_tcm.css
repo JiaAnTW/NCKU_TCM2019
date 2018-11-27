@@ -52,7 +52,7 @@
     width: 100%;
     max-width: 100%;
     left: -50%;
-    height: 270vw;
+    height: 400vw;
     background-color:rgb(64, 34, 15); 
 }
 
@@ -61,7 +61,7 @@
     left: 50vw;
     width: 100vw;
     position: absolute;
-    height: 270vw;
+    height: 400vw;
     background-color:rgb(64, 34, 15);
 }
 
@@ -98,70 +98,88 @@ p{
 .passengers{
     position: absolute;
     top: 30vw;
-    left: 65%;
+    left: 90%;
 }
 .passengers_topic{
     position: absolute;
     top: 53vw;
-    left: 66%;
+    left: 90%;
 }
 
 .passengers_content{
     position: absolute;
-    top: 30vw;
-    left: 100%;
+    top: 75vw;
+    left: 60%;
+    color: white;
+    font-family: "華康細黑體";
+    width: 80vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+    text-align: center;
 }
 
 .truck{
     position: absolute;
-    top: 80vw;
-    right: -35%;
+    top: 120vw;
+    left: 90%;
 }
 .truck_topic{
     position: absolute;
-    top: 100vw;
-    right: -33%;
+    top: 140vw;
+    left: 90%;
 }
 
 .truck_content{
     position: absolute;
-    top: 80vw;
-    left: 57%;
+    top: 160vw;
+    left: 60%;
+    color: white;
+    font-family: "華康細黑體";
+    width: 80vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+    text-align: center;
 }
 
 .network{
     position: absolute;
-    top: 127vw;
-    left: 65%;
+    top: 220vw;
+    left: 89%;
 }
 
 .network_topic{
     position: absolute;
-    top: 150vw;
-    left: 66%;
+    top: 245vw;
+    left: 90%;
 }
 
 .network_content{
     position: absolute;
-    top: 127vw;
-    left: 100%;
+    top: 250vw;
+    left: 80%;
 }
 
 .tower{
     position: absolute;
-    top: 177vw;
-    right: -33%;
+    top: 300vw;
+    left: 89%;
 }
 .tower_topic{
     position: absolute;
-    top:200vw;
-    right: -31%;
+    top:325vw;
+    left: 90%;
 }
 
 .tower_content{
     position: absolute;
-    top: 177vw;
-    left: 57%;
+    top: 345vw;
+    left: 60%;
+    color: white;
+    font-family: "華康細黑體";
+    width: 80vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+    text-align: center;
 }
 
 .know_member{
