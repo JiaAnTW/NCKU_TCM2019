@@ -4,7 +4,7 @@
     width: 3vw;
     position: absolute;
     top:16%;
-    left: 16%;
+    left: 36.8vw;
     animation-name: jump;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -26,14 +26,13 @@
 
   .cover{
     position: relative;
-    top: -100px;
-    bottom: 0px;
-    max-width: 1920px;
+    top: -90%;
+    max-width: 100%;
   }
 
   .cover img{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     left: 0%;
     height: auto;
   }

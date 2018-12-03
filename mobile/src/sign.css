@@ -3,18 +3,19 @@ p{
 }
 
 .Pin{
-    height: 25px;
-    position: relative;
-    animation-name: jump;
-    left: -161px;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  }
+  width: 3vw;
+  position: absolute;
+  top:51.5vw;
+  left: 33.7vw;
+  animation-name: jump;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
   
   .TimeBar{
     width: 90vw;
     position: relative;
-    top:200px;
+    top:50vw;
     left: 15px;
   }
   
@@ -49,14 +50,14 @@ p{
 
   @keyframes jump{
     0%{
-      top:125px;
+      top:51.5vw;
     }
   
     50%{
-      top:130px;
+      top:53vw;
     }
   
     100%{
-        top:125px;
+        top:51.5vw;
     }
   }

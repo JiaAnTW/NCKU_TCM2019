@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './sign.css';
 import TimeBar from './asset/TimeBar.png';
 import sign from './asset/sign.jpg';
+import pin from './asset/pin.png';
 
 class home extends Component {
   render() {
@@ -9,6 +10,7 @@ class home extends Component {
       <div className="App"> 
         <p>
             <img src={TimeBar} className='TimeBar' alt="TimeBar"/>
+            <img src={pin} className='Pin' alt="Pin"/>
         </p>
         <cover>
             <img src={sign} alt="sign"/>

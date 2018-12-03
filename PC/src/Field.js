@@ -25,10 +25,10 @@ class Field extends React.Component{
                 {"top": "35%"}
             ],
             topicStyle:[
-                {"right": "1.1vw","bottom": "-3vh"},
-                {"left": "1.1vw","bottom": "-3vh"},
-                {"right": "1.1vw","top": "-3vh"},
-                {"left": "1.1vw","top": "-3vh"}
+                {"right": "1.1vw","bottom": "-1.2vw"},
+                {"left": "1.1vw","bottom": "-1.2vw"},
+                {"right": "1.1vw","top": "-1.2vw"},
+                {"left": "1.1vw","top": "-1.2vw"}
             ],
             "type": this.props.id,
             content: this.conentTxt(this.props.id),

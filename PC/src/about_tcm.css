@@ -38,7 +38,7 @@
    
 }
 #know{
-    max-width: 1520px;
+    max-width: 100%;
 }
 
 
@@ -50,7 +50,7 @@
 }
 
 .know_field{
-    max-width: 1920px;
+    max-width: 100%;
     position: relative;
 }
 
