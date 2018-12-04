@@ -19,12 +19,13 @@
     position: absolute;
     width: 30vw;
     top:5%;
+    left: 5%;
     border-radius: 10px;
 }
 
 .name{
     position: absolute;
-    top:22vw;
+    top:23vw;
     left: 7%;
     color: white;
     background-color: rgb(45, 45, 45);
@@ -34,7 +35,7 @@
     font-size: 1.9vw;
     font-weight:lighter;
     font-family: "華康中圓體";
-    line-height:8vh;
+    line-height:4vw;
     
 }
 
@@ -44,6 +45,7 @@
     font-weight:lighter;
     top:77%;
     left: 7%;
+    font-size: 1.8vw;
     color: rgb(45, 45, 45);
 }
 
@@ -52,6 +54,7 @@
     font-family: "華康中圓體";
     font-weight:lighter;
     top:85%;
+    font-size: 1.2vw;
     left: 7%;
     color: rgb(45, 45, 45);
     text-align: left

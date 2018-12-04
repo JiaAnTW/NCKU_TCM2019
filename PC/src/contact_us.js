@@ -26,14 +26,14 @@ class contact_us extends Component {
     const fbStyle={
         position: 'relative',
         width: '25vw',
-        top: '75px',
+        top: '2vw',
         left: '10%',
 
     }
     const gmailStyle={
         position: 'relative',
         width: '37.5vw',
-        top: '200px',
+        top: '10vw',
         left: '-15%',
     }
     return (

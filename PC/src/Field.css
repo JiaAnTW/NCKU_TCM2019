@@ -1,7 +1,7 @@
 .container{
     position: absolute;
     width: 10vw;
-    height: 20vh;
+    height: 10vw;
     border-radius:10px;
     font-family: '華康中黑體'
 }
@@ -47,7 +47,7 @@
 
 .container:hover > .back{
     width: 35vw;
-    height: 30vh;
+    height: 15vw;
 
 }
 

@@ -35,10 +35,12 @@ class about_tcm extends Component {
                 <h2 className="know_topic">交管到底是什麼<br/>你們指揮交通嗎</h2>
                 <h3 className="nope">A: 並沒有。<br/>憾!交管系竟不指揮交通?真相是...(往下滑小編告訴你)</h3>
               </div>
-              <div name='know' id='know'>      
-                  <img src={know1} className='know_tcm'  alt='know_1'/>
-                  <img src={know_tcm} className='know_tcm'  alt='know_tcm'/>
-                  <img src={know_future} className='know_tcm'  alt='know_future'/> 
+              <div name='know' id='know'>
+                  <div className="pic_container">     
+                    <img src={know1} className='know_tcm'  alt='know_1'/>
+                    <img src={know_tcm} className='know_tcm'  alt='know_tcm'/>
+                    <img src={know_future} className='know_tcm'  alt='know_future'/> 
+                  </div> 
                   <div className='know_field'>                  
                     <img src={know_field}   className="field_img" alt='know_field'/>
                      <Field className="Field" id="0" pic={passengers} alt="passengers"/>

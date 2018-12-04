@@ -7,10 +7,10 @@ class Field extends React.Component{
         this.conentTxt=this.conentTxt.bind(this);
         this.state={
             containerStyle:[
-                {"top": "23%","left": "32%"},
-                {"top": "23%","right": "33%"},
-                {"top": "59%","left": "32%"},
-                {"top": "59%","right": "33%"}
+                {"top": "11.5vw","left": "32%"},
+                {"top": "11.5vw","right": "33%"},
+                {"top": "31vw","left": "32%"},
+                {"top": "31vw","right": "33%"}
             ],
             fieldStyle:[
                 {"right": "10%","bottom": "0%"},
@@ -19,10 +19,10 @@ class Field extends React.Component{
                 {"left": "10%","top": "0%"}
             ],
             imgStyle:[
-                {"bottom": "10%"},
-                {"bottom": "4%"},
-                {"top": "35%"},
-                {"top": "35%"}
+                {"bottom": "24%","right": "12%"},
+                {"bottom": "20%","left": "16%"},
+                {"top": "35%","right": "14%"},
+                {"top": "35%","left": "16%"}
             ],
             topicStyle:[
                 {"right": "1.1vw","bottom": "-1.2vw"},

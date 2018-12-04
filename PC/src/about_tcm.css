@@ -1,30 +1,30 @@
 .know_topic{
     z-index: 4; 
     font-family: '華康細圓體';
-    font-size: 9vh;
+    font-size: 4.5vw;
     position: absolute;
     color: rgb(45, 45, 45);
     top:1.5vw;
     left: 39%;
-    line-height: 10vh;
+    line-height: 5vw;
     text-align: left;
 }
 
 .nope{
     z-index: 4; 
     font-family: '華康細圓體';
-    font-size: 3.5vh;
+    font-size: 1.75vw;
     position: absolute;
     color: rgb(45, 45, 45);
     top:17vw;
     left: 28vw;
-    line-height: 7vh;
+    line-height: 3.5vw;
     text-align: center;
 }
 
 .question{
     font-family: 'Microsoft Yi Baiti';
-    font-size: 27vh;
+    font-size: 13.5vw;
     position: absolute;
     color: rgb(196, 29, 29);
     top:-7vw;
@@ -34,39 +34,41 @@
 #topic_container{
     position: relative;
     top: 0;
-    height: 500px;
+    height: 32vw;
    
 }
-#know{
-    max-width: 100%;
-}
 
-
-#know img{
+.pic_container{
     position: relative;
     max-width: 100%;
-    margin: -5px 0px;
-    left: 0%;
 }
+
+.pic_container img{
+    width: 100%;
+    margin: -5px 0px;
+}
+
 
 .know_field{
     max-width: 100%;
     position: relative;
+    left:0%;
 }
+
 
 .Field{
     position: absolute;
-    
+    background-color: rgb(64, 34, 15);;
 }
 
 .field_img{
-    position: absolute;
-    margin: 5 0;
+    width: 100%;
+    margin: -5px 0px;
 }
 
 .know_member{
-    max-width: 1920px;
-    height: 100vh;
+    max-width: 100%;
+    height: 50vw;
     position: relative;
     background-color: rgb(232, 184, 55)
 }
