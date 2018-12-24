@@ -1,7 +1,8 @@
 a{
     color: rgb(159, 116, 60);
     text-decoration: none;
-    font-family: '華康細圓體';
+    font-family: 'Noto Sans TC';
+    font-weight:100;
     font-size: 20px;
 }
 

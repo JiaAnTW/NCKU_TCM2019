@@ -75,7 +75,8 @@ header img{
 .menu-item{
   text-decoration: none;
   color: #F4E4C3;
-  font-family: 'Microsoft YaHei Light';
+  font-family: 'Noto Sans TC';
+  font-weight:300;
 }
 
 .menu-icon{

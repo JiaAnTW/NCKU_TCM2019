@@ -33,16 +33,16 @@
     border-radius: 20px;
     width: 8vw;
     font-size: 1.9vw;
-    font-weight:lighter;
-    font-family: "華康中圓體";
-    line-height:4vw;
+    font-family: 'Noto Sans TC';
+    font-weight:400;
+    line-height:3.5vw;
     
 }
 
 .identity{
     position: absolute;
-    font-family: "華康中圓體";
-    font-weight:lighter;
+    font-family: 'Noto Sans TC';
+    font-weight:400;
     top:77%;
     left: 7%;
     font-size: 1.8vw;
@@ -51,9 +51,9 @@
 
 .school{
     position: absolute;
-    font-family: "華康中圓體";
-    font-weight:lighter;
+    font-family: 'Noto Sans TC';
     top:85%;
+    font-weight:350;
     font-size: 1.2vw;
     left: 7%;
     color: rgb(45, 45, 45);
@@ -70,8 +70,9 @@
 }
 
 span{
-    font-family: "華康中黑體";
+    font-family: 'Noto Sans TC';
     color: rgb(45, 45, 45);
     font-size: 1.3vw;
     line-height:2.5vw;
+    font-weight:300;
 }

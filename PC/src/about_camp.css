@@ -2,7 +2,8 @@
 
 .intro_topic{
     z-index: 4; 
-    font-family: '華康細圓體';
+    font-family: 'Noto Sans TC';
+    font-weight:400;
     font-size: 3vw;
     color: rgb(159, 116, 60);
     position: relative;

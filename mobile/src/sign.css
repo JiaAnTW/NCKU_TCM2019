@@ -19,32 +19,39 @@ p{
     left: 15px;
   }
   
+  .list{
+    position: relative;
+    width: 80vw;
+    top:330px;
+    border-radius: 10px;
+  }
   
 
-  cover img{
+  .cover img{
     position: relative;
     align-items: center;
     
     max-width:100%;
     max-height:100%;
-    top: 350px;
+    top: 370px;
     bottom: 0px;
   }
 
-  cover a{
+  .cover a{
     position: relative;
     font-size: 18px;
     color: white;
-    font-family: '華康中黑體';
+    font-family: 'Noto Sans TC';
+    font-weight:300;
   }
 
   .form{
-    bottom: -225px;
+    bottom: -260px;
     left: 0px;
   }
 
   .pay{
-    bottom: -225px;
+    bottom: -260px;
     left: 25px;
   }
 

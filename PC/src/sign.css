@@ -51,7 +51,8 @@
     left: 29%;
     color: white;
     text-decoration: underline;
-    font-family: '華康細黑體';
+    font-family: 'Noto Sans TC';
+    font-weight:300;
   }
 
   .pay{
@@ -60,8 +61,9 @@
     top:63%;
     left: 40%;
     color: white;
+    font-weight:300;
     text-decoration: underline;
-    font-family: '華康細黑體';
+    font-family: 'Noto Sans TC';
   }
 
   @keyframes jump{

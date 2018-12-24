@@ -1,6 +1,7 @@
 .know_topic{
     z-index: 4; 
-    font-family: '華康細圓體';
+    font-family: 'Noto Sans TC';
+    font-weight:600;
     font-size: 4.5vw;
     position: absolute;
     color: rgb(45, 45, 45);
@@ -12,7 +13,8 @@
 
 .nope{
     z-index: 4; 
-    font-family: '華康細圓體';
+    font-family: 'Noto Sans TC';
+    font-weight:500;
     font-size: 1.75vw;
     position: absolute;
     color: rgb(45, 45, 45);
@@ -23,12 +25,13 @@
 }
 
 .question{
-    font-family: 'Microsoft Yi Baiti';
-    font-size: 13.5vw;
+    font-family: 'Noto Sans TC';
+    font-weight:600;
+    font-size: 11.5vw;
     position: absolute;
     color: rgb(196, 29, 29);
     top:-7vw;
-    left: 27%;
+    left: 25%;
 }
 
 #topic_container{

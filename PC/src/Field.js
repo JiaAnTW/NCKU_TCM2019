@@ -25,10 +25,10 @@ class Field extends React.Component{
                 {"top": "35%","left": "16%"}
             ],
             topicStyle:[
-                {"right": "1.1vw","bottom": "-1.2vw"},
-                {"left": "1.1vw","bottom": "-1.2vw"},
-                {"right": "1.1vw","top": "-1.2vw"},
-                {"left": "1.1vw","top": "-1.2vw"}
+                {"right": "1.1vw","bottom": "-1.7vw"},
+                {"left": "1.1vw","bottom": "-1.7vw"},
+                {"right": "1.1vw","top": "-1.7vw"},
+                {"left": "1.1vw","top": "-1.7vw"}
             ],
             "type": this.props.id,
             content: this.conentTxt(this.props.id),
@@ -44,7 +44,7 @@ class Field extends React.Component{
         else if(type==="3")
             return <span className="content">2018/11/24，九合一選舉之夜。全台超過200萬人在電腦前刷新開票網頁。讓這件事情能順利進行的，就是電信公司。在電管，你會廣泛了解網路和手機訊號傳遞的技術，從定價策略、行銷、市場分析，去學習怎麼樣去營運一個電信公司。那電管跟資工、電工(電機)有什麼差別呢?以觀看開票網頁來說，資電工負責創造出能夠同時負荷200萬人的軟硬體技術、網站呈現、處理開票結果，而電管則是負責決定提供這項技術的價格、對象以及行銷策略。</span>
         else
-            return <span>尚未開放<br/>敬請期待</span>
+            return <span className="content">所謂的『運輸科技』就是，結合資訊、通信、電子、控制等技術應用於運輸。像智慧腳踏車租借系統，就是便利且被廣泛應用的運輸科技實例之一!透過本系運輸科技的專業課程『運輸工程、智慧型運輸系統、管理資訊系統、交通流理論』，將會帶給大家更深入的了解和專業的相關知識哦</span>
     }
     render(){
         return(

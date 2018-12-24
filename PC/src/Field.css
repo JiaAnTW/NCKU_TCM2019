@@ -3,7 +3,7 @@
     width: 10vw;
     height: 10vw;
     border-radius:10px;
-    font-family: '華康中黑體'
+    font-family: 'Noto Sans TC';
 }
 
 .topic_img{
@@ -18,7 +18,8 @@
     border-radius: 10px;
     width: 8vw;
     height: 2vw;
-    font-family: '華康細黑體';
+    font-family: 'Noto Sans TC';
+    font-weight:500;
     -webkit-transition: width 1s ease-in-out,height 1s ease-in-out;
     -moz-transition: width 1s ease-in-out,height 1s ease-in-out;
     -o-transition: width 1s ease-in-out,height 1s ease-in-out;
@@ -26,18 +27,20 @@
 }
 
 .topic{
-    font-family: '華康中黑體';
+    font-family: 'Noto Sans TC';
     position: absolute;
+    font-weight:400;
     font-size: 1.5vw;
     color:rgb(64, 34, 15);
 }
 
 .text{
-    font-family: '華康細黑體';
+    font-family: 'Noto Sans TC';
     position: absolute;
+    font-weight:300;
     top:11%;
-    left:10%;
-    width: 25vw;
+    left:7%;
+    width: 30vw;
     opacity: 0; 
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -57,7 +60,7 @@
 }
 
 .content{
-    font-size: 1vw;
-    line-height: 1.5vw;
+    font-size: 1.0vw;
+    line-height: 0.8vw;
     text-align: left;
 }

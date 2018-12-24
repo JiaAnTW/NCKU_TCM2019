@@ -10,7 +10,7 @@ class Profile extends React.Component{
         this.conentTxt=this.conentTxt.bind(this);
         this.state={
             Name:["莊博宇","邱華奕","陳柔安"],
-            pos:[{"top":"5%"},{"top":"35%"},{"top":"75%"}],
+            pos:[{"top":"7%"},{"top":"37%"},{"top":"77%"}],
             Identity:["第18屆交管營小學員","第20屆交管營小學員","第20屆交管營小學員"],
             School_before:["台南一中","新竹中學","家齊高中"],
             School_Now:["國立成功大學交通管理學系","政治大學地政學系土地資源規劃組","台北大學不動產與城鄉環境學系"],

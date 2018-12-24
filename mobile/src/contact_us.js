@@ -19,7 +19,8 @@ class contact_us extends Component {
         top: '150px',
         alignItem: 'center',
         left: '90px',
-        fontFamily:'Microsoft YaHei Light',
+        fontFamily: 'Noto Sans TC',
+        fontWeight:500,
         color: 'rgb(159, 116, 60)',
         fontSize: '36px'
     }
