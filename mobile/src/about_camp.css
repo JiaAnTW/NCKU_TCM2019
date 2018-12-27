@@ -1,9 +1,9 @@
 
 .intro_topic{
     z-index: 4; 
-    font-size: 30px;
+    font-size: 8vw;
     position: relative;
-    top: 150px;
+    top: 38vw;
     left: 0%;
     height: 15px;
     font-family: 'Noto Sans TC';
@@ -13,32 +13,32 @@
 
 .intro{
     position: relative;
-    top:265px;
+    top:65vw;
     left:0px;
 }
 
 
-visit img{
+.visit img{
     position: relative;
     width: 100vw;
     margin: 0px 0px;
 }
 
-play img{
+.play img{
     position: relative;
     width: 100vw;
     margin: -10px 0px;
 
 }
 
-explore img{
+.explore img{
     position: relative;
     width: 100vw;
     margin: 0px 0px;
 
 }
 
-lesson img{
+.lesson img{
     position: relative;
     width: 100vw;
     margin: -10px 0px;

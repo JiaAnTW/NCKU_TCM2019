@@ -16,24 +16,24 @@ class contact_us extends Component {
     const h3Style={
         position: 'relative',
         width: '55vw',
-        top: '150px',
+        top: '45vw',
         alignItem: 'center',
-        left: '90px',
+        left: '25vw',
         fontFamily: 'Noto Sans TC',
         fontWeight:500,
         color: 'rgb(159, 116, 60)',
-        fontSize: '36px'
+        fontSize: '9vw'
     }
     const fbStyle={
         position: 'relative',
         width: '55vw',
-        top: '200px',
+        top: '55vw',
 
     }
     const gmailStyle={
         position: 'relative',
         width: '80vw',
-        top: '225px',
+        top: '65vw',
     }
     return (
       <div className="App">

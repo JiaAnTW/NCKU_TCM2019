@@ -14,18 +14,18 @@ class about_camp extends Component {
           <h1 className='intro_topic'>在交管營 我們帶你</h1>
           <Buttons/>
           <div className="intro">
-            <visit id='visit'>
+            <div className='visit'>
                 <img src={visit} className='visit'  alt='visit_2'/>            
-            </visit>
-            <play id='play'>
+            </div>
+            <div className='play'>
                 <img src={play} className='play' alt='play'/>             
-              </play>
-              <explore id='explore'>
+              </div>
+              <div className='explore'>
                 <img src={explore} className='explore' alt='explore'/>             
-              </explore>
-              <lesson id='lesson'>
+              </div>
+              <div className='lesson'>
                 <img src={lesson} className='lesson' alt='lesson'/>             
-              </lesson>
+              </div>
               
               
               
