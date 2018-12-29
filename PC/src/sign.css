@@ -3,8 +3,8 @@
 .Pin{
     width: 3vw;
     position: absolute;
-    top:16%;
-    left: 36.8vw;
+    top:5vw;
+    left: 58.3vw;
     animation-name: jump;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -18,9 +18,16 @@
   
   .list{
     position: relative;
-    width: 50vw;
+    width: 60vw;
     border-radius: 15px;
     top:-10vw;
+  }
+
+  .list2{
+    position: relative;
+    width: 60vw;
+    border-radius: 15px;
+    top:-17vw;
   }
   
   #routine{

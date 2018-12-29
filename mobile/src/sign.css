@@ -5,8 +5,8 @@ p{
 .Pin{
   width: 3vw;
   position: absolute;
-  top:51.5vw;
-  left: 33.7vw;
+  top:46.5vw;
+  left: 60.65vw;
   animation-name: jump;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -15,14 +15,21 @@ p{
   .TimeBar{
     width: 90vw;
     position: relative;
-    top:50vw;
-    left: 15px;
+    top:45vw;
+    left: 4.15vw;
   }
   
   .list{
     position: relative;
     width: 80vw;
     top:85vw;
+    border-radius: 10px;
+  }
+
+  .list2{
+    position: relative;
+    width: 80vw;
+    top:78vw;
     border-radius: 10px;
   }
   
@@ -57,14 +64,14 @@ p{
 
   @keyframes jump{
     0%{
-      top:51.5vw;
+      top:46.5vw;
     }
   
     50%{
-      top:53vw;
+      top:48vw;
     }
   
     100%{
-        top:51.5vw;
+        top:46.5vw;
     }
   }

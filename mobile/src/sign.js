@@ -4,6 +4,7 @@ import TimeBar from './asset/TimeBar.png';
 import sign from './asset/sign.jpg';
 import pin from './asset/pin.png';
 import list from './asset/list.jpg';
+import list2 from './asset/list2.jpg';
 
 class home extends Component {
   render() {
@@ -14,6 +15,7 @@ class home extends Component {
             <img src={pin} className='Pin' alt="Pin"/>
         </p>
         <img src={list} className='list' alt="list"/>
+        <img src={list2} className='list2' alt="list2"/>
         <div className="cover">
             <img src={sign} alt="sign"/>
             <a id="form" className="form" href="https://goo.gl/nFHMU1">報名表單</a>
