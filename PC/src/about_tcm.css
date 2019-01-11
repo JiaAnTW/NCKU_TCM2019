@@ -84,6 +84,7 @@ button{
     width: 1vw;
     height: 1vw;
     border: none;
+    outline:none;
 }
 
 .fakeButton{

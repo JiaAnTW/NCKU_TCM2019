@@ -1,0 +1,94 @@
+.home_pic{
+    position: absolute;
+    top:-20vw;
+    left: 0vw;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.home_topic{
+    font-size: 5vw;
+    position: absolute;
+    top: -10vw;
+    left: 34vw;
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-weight:100;
+    
+}
+
+.home_text_container{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    animation: fade 2s;
+}
+
+.day{
+    font-size: 9vw;
+    position: absolute;
+    top: 5vw;
+    left: 44vw;
+    color: white;
+    font-weight:500;
+}
+
+.day_txt{
+    font-size: 4.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 55vw;
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-weight:500;
+}
+
+.home_button{
+    position: absolute;
+    border-radius: 50px;
+    width: 8vw;
+    height: 2.5vw;
+    top: 16vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Noto Sans TC';
+    font-weight:100;
+    font-size: 1.3vw;
+    border-width:0.05vw;
+    border-style:solid;
+    border-color: rgba(243, 243, 243, 0.4);
+    outline:none;
+}
+
+.home_button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(243, 243, 243, 0.8);
+}
+
+.remember{
+    position: absolute;
+    border-radius: 10px;
+    width: 50vw;
+    height: 40vw;
+    top: -13vw;
+    left: 24vw;
+    color:rgba(243, 243,243, 1);
+    background-color: rgba(64, 34, 15, 0.8);
+    font-family: 'Noto Sans TC';
+    line-height:2vw;
+    font-weight:100;
+    font-size: 1.3vw;
+    animation: fade 1s;
+    outline:none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

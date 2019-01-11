@@ -16,7 +16,7 @@ import './about_camp.css';
             
         ];
         const PicBtn=nameOfPic.map(Pic=>{
-            const PicStyle={position: 'relative', top:'50vw',left:Pic.pos, width: '20vw'};
+            const PicStyle={position: 'relative', top:'50vw',left:Pic.pos, width: '20vw', outline:'none'};
             return(
                     <input type="image" src={Pic.src} alt={Pic.alt} style={PicStyle}>
                     </input>

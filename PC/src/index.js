@@ -6,6 +6,7 @@ import about_camp from './about_camp.js';
 import sign from './sign.js';
 import about_tcm from './about_tcm';
 import contact_us from './contact_us';
+import home from './home';
 import * as serviceWorker from './serviceWorker';
 import { Router, Route,  hashHistory ,IndexRoute } from 'react-router';
 
@@ -13,7 +14,7 @@ import { Router, Route,  hashHistory ,IndexRoute } from 'react-router';
 ReactDOM.render(
 <Router history={hashHistory}>
       <Route path="/" component={App}>
-        <IndexRoute component={about_camp}/>
+        <IndexRoute component={home}/>
         <Route path="about_camp" component={about_camp}/>
         <Route path="about_tcm" component={about_tcm}/>
         <Route path="sign" component={sign}/>

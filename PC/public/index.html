@@ -16,11 +16,11 @@
       useragent = useragent.toLowerCase();
       
       if( useragent.indexOf('iphone') != -1 || useragent.indexOf('ipod') != -1) location.replace("http://wintercampmobile.tcm.ncku.edu.tw/#/");//iphone
-      else if( useragent.indexOf('ipad') != -1 ) {}//ipad
+      else if( useragent.indexOf('ipad') != -1 ) {location.replace("http://wintercampmobile.tcm.ncku.edu.tw/#/");}//ipad
       else if( useragent.indexOf('android') != -1 ) {
       if( ConsiderLimits() )
       {
-       // android pad
+        location.replace("http://wintercampmobile.tcm.ncku.edu.tw/#/");// android pad
       }else{
       location.replace("http://wintercampmobile.tcm.ncku.edu.tw/#/"); // android phone
       }

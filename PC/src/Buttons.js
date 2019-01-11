@@ -25,7 +25,7 @@ class Buttons extends React.Component{
             
         ];
         const PicBtn=nameOfPic.map(Pic=>{
-            const PicStyle={position: 'relative', top:'-50px',left:Pic.pos, width: '15vw'};
+            const PicStyle={position: 'relative', top:'-50px',left:Pic.pos, width: '15vw',outline:'none'};
             return(
                     <input type="image" src={Pic.src} alt={Pic.alt} style={PicStyle} onClick={()=>this.scrollToAnchor(Pic.id,Pic.time,Pic.offset)}>
                     </input>

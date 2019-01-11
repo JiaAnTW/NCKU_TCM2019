@@ -28,7 +28,7 @@ header img{
   height: 30px;
   left: 24px;
   top: 36px;
-  background: rgb(159, 116, 60);
+  background: rgba(159, 116, 60,0);
 }
 
 /* Color/shape of burger icon bars */
