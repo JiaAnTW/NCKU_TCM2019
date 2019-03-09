@@ -16,8 +16,13 @@ class home extends Component {
     }
 
     dateCounter=()=>{
-        const number=21-new Date().getDate();
-        return number;
+        var clock = new Date('GMT+0800');
+        if(clock.getFullYear()===2019 && clock.getMonth()===1 && clock.getDate() <22 ){
+            const number=21-clock.getDate();
+            return number;
+        }
+        else 
+            return 0;
     }
     changeNow=(e)=>{
         if(e.target.value==='0')

@@ -206,8 +206,9 @@ h4{
     position: relative;
     width: 100vw;
     background-color: rgb(232, 184, 55);
-    height: 800vw;
+    height: 950vw;
 }
+
 
 .profile_topic{
     position: absolute;
@@ -217,4 +218,9 @@ h4{
     font-family: 'Noto Sans TC';
     font-weight:400;
     font-size: 7vw;
+}
+
+.wrap_container{
+    position: absolute;
+    top:45vw;
 }

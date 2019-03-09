@@ -42,9 +42,11 @@ class about_tcm extends Component {
               </div>
               <div className="know_member">
                 <h2 className="profile_topic">了解了交管卻還在猶豫嗎?<br/>聽聽他們怎麼說!</h2>
-                <Profile id="0"/>
-                <Profile id="1"/>
-                <Profile id="2"/>
+                <div className="wrap_container">
+                  <Profile id="0"/>
+                  <Profile id="1"/>
+                  <Profile id="2"/>
+                </div>
               </div>
       </div>
     );

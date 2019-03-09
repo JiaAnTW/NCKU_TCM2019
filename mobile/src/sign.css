@@ -64,14 +64,14 @@ p{
 
   @keyframes jump{
     0%{
-      top:46.5vw;
+      top:38.5vw;
     }
   
     50%{
-      top:48vw;
+      top:41vw;
     }
   
     100%{
-        top:46.5vw;
+        top:38.5vw;
     }
   }

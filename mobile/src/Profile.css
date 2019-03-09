@@ -1,7 +1,8 @@
 .whole_container{
-    position: absolute;
+    position: relative;
     left: 10%;
     width: 80vw;
+    padding:150vw 0 ;
 }
 
 .pro_container{
@@ -64,7 +65,7 @@
     top: 80vw;
     left: 10%;
     width: 65vw;
-    height: 75vw;
+    height: auto;
     text-align: left;
 }
 
@@ -74,4 +75,5 @@
     color: rgb(45, 45, 45);
     font-size: 4vw;
     line-height:7vw;
+    height: auto;
 }

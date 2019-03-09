@@ -63,8 +63,8 @@
 .text_container{
     position: absolute;
     top: 0%;
-    right: 0%;
-    width: 37vw;
+    right: -10%;
+    width: 45vw;
     height: 37.5vw;
     text-align: left;
 }
